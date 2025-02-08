@@ -15,7 +15,7 @@ options.load_capabilities({
 	"appium:automationName": "UiAutomator2",
 	"appium:platformName": "Android",
 	"appium:deviceName": "emulator-5554",
-	"appium:app": "C:/Users/aa971/Downloads/pijar-sekolah-siswa.apk",
+	"appium:app": "/Users/ardiansyah/Downloads/pijar-sekolah-siswa-new.apk",
     # "appPackage": "com.instagram.android",
     # "appActivity": "com.instagram.mainactivity.MainActivity",
 	"appium:newCommandTimeout": 3600,
@@ -45,6 +45,8 @@ driver.find_element(by=AppiumBy.XPATH, value='(//android.view.ViewGroup[@content
 time.sleep(5)
 
 #Step Access Profile Me
+driver.find_element(by=AppiumBy.XPATH, value='//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/com.horcrux.svg.SvgView/com.horcrux.svg.GroupView/com.horcrux.svg.GroupView').click()
+time.sleep(2)
 driver.find_element(by=AppiumBy.XPATH, value='//android.view.ViewGroup[@content-desc="Profil Saya"]').click()
 time.sleep(2)
 driver.find_element(by=AppiumBy.XPATH, value='//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup').click()
