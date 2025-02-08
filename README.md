@@ -1,4 +1,4 @@
-# selenium automation mobile with python
+# Selenium Automation Mobile with Python
 
   This example automation mobile app with python
   
