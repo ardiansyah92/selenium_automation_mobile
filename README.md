@@ -56,4 +56,9 @@ If you want spy apk with selenium
     "appium:deviceName": "emulator-5554",
     "appium:app": "location your apk .apk"
     }
+
+
+  Image
+  <img width="1434" alt="Screenshot 2025-02-09 at 04 56 55" src="https://github.com/user-attachments/assets/a9cad119-8336-4b98-b468-46e7dccb32a2" />
+
     
